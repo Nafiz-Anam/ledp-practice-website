@@ -15,7 +15,7 @@
 /* banner */
 
 header {
-    background-image: url('/img/bg011c.jpg');
+    background-image: url('img/bg011c.jpg');
     background-size: cover;
     width: 100%;
     height: 625px;
@@ -101,7 +101,7 @@ h3 {
 }
 
 .suggest {
-    background-image: url(/img/bg012c.jpg);
+    background-image: url('img/bg012c.jpg');
 }
 
 #suggest h2 {
@@ -145,7 +145,7 @@ h3 {
 /* footer area */
 
 #footer {
-    background-image: url('/img/bg013c.jpg');
+    background-image: url('img/bg013c.jpg');
     width: 100%;
     height: 700px;
 }
