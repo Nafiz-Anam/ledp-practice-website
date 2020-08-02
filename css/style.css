@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* nav area */
+
+.my-nav ul li a {
+    font-weight: bolder;
+    font-size: 11px;
+}
+
+
+/* banner */
+
+header {
+    background-image: url('/img/bg011c.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 625px;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 625px;
+}
+
+.banner-text {
+    position: absolute;
+    top: 30%;
+    color: white;
+}
+
+.banner-text h1,
+h3 {
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+
+.banner-text p {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.arrow i {
+    color: rgb(245, 171, 53);
+    font-size: 25px;
+}
+
+.arrow i:hover {
+    color: white;
+}
+
+
+/* about area */
+
+#about {
+    width: 100%;
+    height: 625px;
+}
+
+#about h2 {
+    letter-spacing: 5px;
+    font-weight: 350;
+}
+
+#about img {
+    border-radius: 50%;
+}
+
+#about .social ul {
+    list-style-type: none;
+}
+
+#about .social ul li {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 25px;
+}
+
+#about .social ul li a {
+    color: rgb(189, 195, 199);
+}
+
+#about .social ul li a:hover {
+    color: rgb(245, 171, 53);
+}
+
+.discript {
+    color: black;
+}
+
+
+/* my suggest area */
+
+#suggest {
+    width: 100%;
+    height: 380px;
+}
+
+.suggest {
+    background-image: url(/img/bg012c.jpg);
+}
+
+#suggest h2 {
+    letter-spacing: 5px;
+    font-weight: 350;
+    color: white;
+}
+
+#suggest .work-icons ul {
+    list-style-type: none;
+}
+
+#suggest .work-icons ul li {
+    display: inline-block;
+    padding: 5px 60px;
+    font-size: 35px;
+}
+
+#suggest .work-icons ul li .work-text {
+    font-size: 15px;
+}
+
+#suggest .work-icons ul li a {
+    color: rgb(245, 171, 53)
+}
+
+#suggest .work-icons ul li a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* testimonial area */
+
+#testimonial {
+    width: 100%;
+    height: 625px;
+}
+
+
+/* footer area */
+
+#footer {
+    background-image: url('/img/bg013c.jpg');
+    width: 100%;
+    height: 700px;
+}
+
+#footer .heading h2 {
+    letter-spacing: 5px;
+    font-weight: 550;
+    color: white;
+}
+
+#footer .address-info h6 {
+    color: white;
+    font-weight: 480;
+    font-size: 13px;
+}
+
+#footer .address-info a,
+p {
+    color: white;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+
+/* form area */
+
+
+/* .contact-form {
+    width: 550px;
+} */
+
+.contact-form label {
+    color: white;
+}
+
+.contact-form input {
+    background: transparent;
+    border-color: rgb(245, 171, 53);
+}
+
+.contact-form textarea {
+    background: transparent;
+    border-color: rgb(245, 171, 53);
+}
+
+
+/* copyright */
+
+.copyright {
+    width: 100%;
+    height: 50px;
+}
